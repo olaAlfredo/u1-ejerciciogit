@@ -1,3 +1,3 @@
-Integrantes:
--Celeste Yarasuary Garcia Diaz
+Integrantes
+-Celeste Garcia Diaz
 -Marco Aurelio Yera Partida

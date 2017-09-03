@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+        
+    </head>
+    <body>
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nuevousuario.html">Nuevo Usuario</a></li>
+            <li><a href="consultausuarios.html">Consulta Usuarios</a></li>
+            <li><a href="nuevoarticulo.html">Nuevo Artículo</a></li>
+            <li><a href="consultaarticulos.html">Consulta Artículos</a></li>
+        </ul> <br><br>
+
+  <div class="contenedor-formulario">
+       <div class="wrap">
+           <!--Formulario-->
+             <form class="formulario" name="formulario_registro" method="post">    
+                <div>
+                    <div class="input-group">
+                     <input type="text" name="nombre" id="nombre" >
+                     <label class="label" for="nombre">Nombre:</label>
+                    </div>
+
+                    <div class="input-group radio">
+                     <input type="radio" name="masculino" value="Masculino" id="masculino">
+                     <label for="masculino">Masculino</label>
+
+                     <input type="radio" name="femenino" value="Femenino" id="femenino">
+                     <label for="femenino">Femenino</label>
+                    </div>
+
+                    <div class="input-group">
+                     <input type="email" name="email" id="email" >
+                     <label class="label" for="email">Email:</label>
+                    </div>
+
+                    <div class="input-group">
+                     <input type="password" name="password" id="password" >
+                     <label class="label" for="password">Password:</label>
+                    </div>
+
+                    <input type="submit" id="btn-submit" value="Enviar">
+                </div>
+            </form>
+       </div>
+</div>
+        <script src="formulario.js"></script>
+    </body>
+</html>

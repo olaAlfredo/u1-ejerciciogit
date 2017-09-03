@@ -1,22 +1,14 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 (function(){
-    var formulario=document.formulario_articulo,
+	var formulario=document.formulario_registro,
 	elementos=formulario.elements;
-    
-    
 
-  
-  
-  var enviar=function(e){
+	//Functions
+    var enviar=function(e){
         if(!validarInputs()){
            console.log('Falto validar los Inputs');
            e.preventDefault();
-        } else if(!validarSelect()){
-           console.log('Falto validar los Select');
+        } else if(!validarRadios()){
+           console.log('Falto validar los Radio');
            e.preventDefault();
         }else{
         	console.log('Envia correctamente');
@@ -24,8 +16,8 @@
         	e.preventDefault();
         }
     };
-  
-      //Funciones Blur y Focus
+
+    //Funciones Blur y Focus
     var focusInput = function(){
     this.parentElement.children[1].className = "label active";
     this.parentElement.children[0].className = this.parentElement.children[0].className.replace("error","");
@@ -41,15 +33,9 @@
 	formulario.addEventListener("submit",enviar);
 
 	for (var i=0;i<elementos.length;i++){
-		if(elementos[i].type == "text" ){
+		if(elementos[i].type == "text" || elementos[i].type == "email" || elementos[i].type == "password"){
 			elementos[i].addEventListener("focus", focusInput);
 			elementos[i].addEventListener("blur", blurInput);
 		}
 	}
-        
- //indice = document.getElementById("opciones").selectedIndex;
-//if( indice == null || indice == 0 ) {
- // alert("Debe Seleccionar una Marca");
-//}
-    
-  }())
+}())

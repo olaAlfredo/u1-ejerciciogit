@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31/08/2017, 11:30:49 AM
+    Author     : Marco Yera
+*/
+
+table{
+	border:1px solid black;
+	border-collapse:collapse; 
+	text-align: center;
+        font-size:25px;
+        font-weight:bold;
+        font-family:cursive;
+        margin-top:60px;
+        align: center;
+        
+        margin-left:auto; 
+	margin-right:auto;
+		
+
+}
+th{
+    border:1px solid black;
+	padding:20px 30px;
+        text-align: left;
+        background-color: #FF2E00;
+		color: white;
+}
+th2{
+    border:1px solid black;
+     color: black;
+     font-size:40px;
+}
+
+table td {
+	border:1px solid black;
+	padding:20px 30px;
+	
+}
+
+
+table td:hover{
+	background:white;
+	color:black;
+}
+
+button.editar{
+  font-size:20px;
+  font-family: cursive;
+  font-weight:bold;
+  color:white;
+  background:#FF0000;
+  border:0px;
+  width:60px;
+  height:20px;
+}
+
+button.borrar{
+  font-size:20px;
+  font-family:Verdana,Helvetica;
+  font-weight:bold;
+  color:white;
+  background:#FF0000;
+  border:0px;
+  width:60px;
+  height:20px;
+}    
+
+button.editar:hover{
+        background-color:#0E8080;    
+}
+
+button.borrar:hover{
+        background-color:#FFA85D;    
+}

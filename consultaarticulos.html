@@ -1,0 +1,68 @@
+<html>
+        <head>
+            <title>TODO supply a title</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style type="text/css">
+                td{text-align: center;}
+                td.primera{text-align: center;}
+                td.segunda{text-align: center;}
+                td.tercera{text-align: left;}
+                td.cuarta{text-align: right;}
+                td.quinta{text-align: center}
+                table tr:nth-child(2n){background-color:white;}
+                table tr:nth-child(2n+1){background-color:lightgray;}
+                .encabezado{background-color:cornflowerblue;color:black;text-align: center;font-weight:bolder}
+                .borrar{background-color:crimson}
+                .editar{background-color: yellowgreen}                
+            </style>
+        </head>
+        <body>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nuevousuario.html">Nuevo Usuario</a></li>
+                <li><a href="consultausuarios.html">Consulta Usuarios</a></li>
+                <li><a href="nuevoarticulo.html">Nuevo Artículo</a></li>
+                <li><a href="consultaarticulos.html">Consulta Artículos</a></li>
+            </ul>
+            <br>
+            <div>
+                <table>
+                    <tr>
+                        <td class="encabezado"><p>Descripcion</p></td>
+                        <td class="encabezado"><p>Marca</p></td>
+                        <td class="encabezado"><p>Cantidad</p></td>
+                        <td class="encabezado"><p>Precio Unitario</p></td>
+                        <td class="encabezado"><p>Acciones</p></td>
+                    </tr>
+                    <tr>
+                        <td class="primera"><p>Laptop</p></td>
+                        <td class="segunda"><p>Dell</p></td>
+                        <td class="tercera"><p>5</p></td>
+                        <td class="cuarta"><p>$5,000.00</p></td>
+                        <td class="quinta"><button class="borrar">Borrar</button><button class="editar">Editar</button></td>
+                    </tr>
+                    <tr>
+                        <td class="primera"><p>Galaxy S6</p></td>
+                        <td class="segunda"><p>Samsung</p></td>
+                        <td class="tercera"><p>10</p></td>
+                        <td class="cuarta"><p>$8,000.00</p></td>
+                        <td class="quinta"><button class="borrar">Borrar</button><button class="editar">Editar</button></td>
+                    </tr>
+                    <tr>
+                        <td class="primera"><p>MacBook Pro</p></td>
+                        <td class="segunda"><p>Apple</p></td>
+                        <td class="tercera"><p>2</p></td>
+                        <td class="cuarta"><p>$30,000.00</p></td>
+                        <td class="quinta"><button class="borrar">Borrar</button><button class="editar">Editar</button></td>
+                    </tr>
+                    <tr>
+                        <td class="primera"><p>G5</p></td>
+                        <td class="segunda"><p>LG</p></td>
+                        <td class="tercera"><p>5</p></td>
+                        <td class="cuarta"><p>$5,000.00</p></td>
+                        <td class="quinta"><button class="borrar">Borrar</button><button class="editar">Editar</button></td>
+                    </tr>        
+            </div>
+        </body>
+</html>

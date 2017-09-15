@@ -1,3 +1,1 @@
-Integrantes:
--Luna Padilla Luis Donaldo
--Guzman Gutierrez Jorge Alberto
+-Manjarrez Chacòn Sergio Rafael

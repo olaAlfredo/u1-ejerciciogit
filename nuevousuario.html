@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    </head>
+    <body>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nuevousuario.html">Nuevo Usuario</a></li>
+            <li><a href="consultausuarios.html">Consulta Usuarios</a></li>
+            <li><a href="nuevoarticulo.html">Nuevo Artículo</a></li>
+            <li><a href="consultaarticulos.html">Consulta Artículos</a></li>
+        </ul>
+        <div>
+            <form onsubmit="confirmacion()">
+                
+                <div class="d-flex justify-content-center">
+                    <label for="">usuario</label>
+                    <input type="text">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <label for="">genero</label>
+                    <input type="radio">
+                    <label for="">masculino</label>
+                    <input type="radio">
+                    <label for="">femenino</label>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <label for="">email</label>
+                    <input type="text">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <label for="">password</label>
+                    <input type="text">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <input type="submit">
+                </div>
+                
+                
+            </form>
+            <div class="d-flex justify-content-center">
+                <h1 id="mensaje"></h1>
+            </div>
+
+        </div>
+    </body>
+</html>
+<script>
+    function confirmacion(){
+        document.getElementById("mensaje").innerHTML = "se añadio el usuario";
+    }
+</script>

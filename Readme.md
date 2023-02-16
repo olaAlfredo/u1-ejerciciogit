@@ -1,3 +1,3 @@
 Integrantes:
--Luna Padilla Luis Donaldo
--Guzman Gutierrez Jorge Alberto
+-José Maximiliano Cantabrana Esquivel
+-Ramón Herrera Herrera
